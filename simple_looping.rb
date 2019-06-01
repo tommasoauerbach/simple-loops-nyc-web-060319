@@ -44,10 +44,10 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  welcome = 1..8
-  for we in welcome
+  for counter in 1..7 do
     puts "Welcome to Flatiron School's Web Development Course!"
   end
+  
   # code your solution here using the "for" keyword
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
 
