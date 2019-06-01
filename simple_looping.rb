@@ -45,7 +45,7 @@ end
 
 def for_iterator(number_of_times)
   welcome = 1..8
-  for we in Welcome
+  for we in welcome
     puts "Welcome to Flatiron School's Web Development Course!"
   end
   # code your solution here using the "for" keyword
